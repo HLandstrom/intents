@@ -1,0 +1,9 @@
+language: sv
+tests:
+  - sentences:
+      - "starta städning med robot"
+    intent:
+      name: HassVacuumStart
+      slots:
+        name: "Robot"
+    response: "Startad"

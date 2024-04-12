@@ -1,0 +1,9 @@
+language: sv
+tests:
+  - sentences:
+      - "return robot to base"
+    intent:
+      name: HassVacuumReturnToBase
+      slots:
+        name: "Robot"
+    response: "Återvänder till basstation"
