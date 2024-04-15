@@ -88,7 +88,42 @@ lists:
       - "fahrenheit"
       - in: "f"
         out: "fahrenheit"
-
+  cover_states:
+    values:
+      - in: "öppen"
+        out: "open"
+      - in: "stängd"
+        out: "closed"
+      - in: "öppnar"
+        out: "opening"
+      - in: "stänger"
+        out: "closing"
+  cover_classes:
+    values:
+      - in: markis[er]
+        out: awning
+      - in: rullgardin[er]
+        out: blind
+      - in: gardin[er]
+        out: curtain
+      - in: dörr[ar]
+        out: door
+      - in: garage dörr[ar]
+        out: garage
+      - in: port[ar]
+        out: gate
+      - in: shade[s]
+        out: shade
+      - in: persienn[er]
+        out: shutter
+      - in: fönster
+        out: window
+  lock_states:
+    values:
+      - in: "låst"
+        out: "locked"
+      - in: "(upplåst|olåst)"
+        out: "unlocked"
   # binary_sensor
   bs_battery_states:
     values:
