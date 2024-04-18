@@ -3,7 +3,7 @@ intents:
   HassTurnOff:
     data:
       - sentences:
-          - <slå_av> <name>
+          - <slå_av> (<area> <name>|<name> [i <area>])
       - sentences:
-          - <stäng_gardiner> <name>
+          - <stäng_gardiner> (<area> <name>|<name> [i <area>])
         response: cover
