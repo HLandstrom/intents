@@ -102,3 +102,7 @@ entities:
     state: idle
     attributes:
       volume_level: "25"
+
+  - name: Robot
+    id: vacuum.robot
+    state: idle
