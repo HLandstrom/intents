@@ -7,6 +7,8 @@ tests:
       name: HassTurnOn
       slots:
         name: Takfläkten
+    response: "Slog på takfläkten"
+
   - sentences:
       - Öppna sovrumsgardinen
       - Dra upp sovrumsgardinen
@@ -17,6 +19,8 @@ tests:
       name: HassTurnOn
       slots:
         name: Sovrumsgardinen
+    response: "Öppnade sovrumsgardinen"
+
   - sentences:
       - Öppna garagedörren
       - Dra bort garagedörren
@@ -25,6 +29,8 @@ tests:
       slots:
         device_class: garage
         domain: cover
+    response: "Öppnade garage"
+
   - sentences:
       - Öppna gardiner i sovrummet
       - Dra upp persiennerna i sovrummet
@@ -42,3 +48,4 @@ tests:
           - curtain
           - shutter
         domain: cover
+    response: "Öppnade i sovrum"
